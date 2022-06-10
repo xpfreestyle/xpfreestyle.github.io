@@ -268,18 +268,168 @@
     background: #dddddd;
 }
 
+.like {
+    height: 262px;
+    margin-top: 30px;
+}
+
+.like-hd {
+    height: 30px;
+}
+
+.like-hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.like-hd .change {
+    float: right;
+    line-height: 30px;
+}
+
+.like-hd .change::after {
+    content: '\e906';
+    font-family: 'icomoon';
+    line-height: 30px;
+    padding-right: 20px;
+}
+
+.like-bd {
+    width: 1202px;
+    height: 232px;
+    border: 1px solid #ededed;
+}
+
+.like-bd ul li {
+    float: left;
+    width: 200px;
+    height: 232px;
+    text-align: center;
+    line-height: 232px;
+    padding-bottom: 12px;
+    border-right: 1px solid #ededed;
+    margin-bottom: 20px;
+}
+
+.like-bd ul li:first-child {
+    line-height: 223px;
+}
+
+.like-bd ul li:last-child {
+    border-right: 0;
+}
+
+.funny {
+    height: 437px;
+    margin-top: 30px;
+}
+
+.funny-hd {
+    height: 30px;
+}
+
+.funny-hd h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.funny-bd {
+    height: 407px;
+    border: 1px solid #ededed;
+}
+
+.col-393 {
+    float: left;
+    width: 393px;
+    border-right: 1px solid #ededed;
+}
+
+/* .col-393 img {
+    width: 100%;
+    height: 100%;
+} */
+
+.col-227 {
+    float: left;
+    width: 227px;
+    border-right: 1px solid #ededed;
+}
+
+.col-227 .top h3 {
+    height: 40px;
+    width: 195px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px dashed #ededed;
+}
+
+.col-227 .middle {
+    text-align: right;
+    padding: 25px 0 15px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col-227 .bottom {
+    text-align: right;
+    padding-top: 15px;
+}
+
+.col-406 {
+    float: left;
+    width: 406px;
+    border-right: 1px solid #ededed;
+    background: #f7f7f7;
+}
+
+.col-406 .top h3 {
+    height: 40px;
+    width: 366px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px dashed #ededed;
+}
+
+.col-406 .middle {
+    text-align: right;
+    padding: 25px 0 17px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col-406 .bottom .bl,
+.br {
+    float: left;
+    width: 202px;
+    text-align: right;
+    padding-top: 23px;
+}
+
+.col-164 {
+    float: right;
+    width: 172px;
+}
+
+/* 楼层模块 */
 .floor .w {
     margin-top: 30px;
 }
 
 .jiadian .box-hd,
-.shouji .box-hd {
+.shouji .box-hd,
+.diannao .box-hd {
     height: 30px;
     border-bottom: 2px solid #c81623;
 }
 
 .jiadian .box-hd h3,
-.shouji .box-hd h3 {
+.shouji .box-hd h3,
+.diannao .box-hd h3 {
     float: left;
     font-size: 18px;
     font-weight: 400;
@@ -287,25 +437,29 @@
 }
 
 .jiadian .box-hd ul,
-.shouji .box-hd ul {
+.shouji .box-hd ul,
+.diannao .box-hd ul {
     float: right;
 }
 
 .jiadian .box-hd ul li,
-.shouji .box-hd ul li {
+.shouji .box-hd ul li,
+.diannao .box-hd ul li {
     float: left;
     font-size: 12px;
     line-height: 30px;
 }
 
 .jiadian .box-hd ul li a,
-.shouji .box-hd ul li a {
+.shouji .box-hd ul li a,
+.diannao .box-hd ul li a {
     display: inline-block;
     padding: 0 13px;
 }
 
 .jiadian .box-bd,
-.shouji .box-bd {
+.shouji .box-bd,
+.diannao .box-bd {
     height: 360px;
 }
 
@@ -353,25 +507,68 @@
     background: #c6e8b6;
 }
 
+.diannao .col-329 {
+    width: 329px;
+    padding-top: 37px;
+    text-align: center;
+    background: #d7aac9;
+}
+
 .col-220 {
     width: 220px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    text-align: right;
+}
+
+.col-221 {
+    width: 221px;
     border-right: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
     text-align: center;
 }
 
-.col-220 .mt {
+.col-221 .mt {
     display: block;
     margin-top: 73px;
 }
 
-.col-220 .bb-1 {
+.col-219 {
+    width: 219px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    text-align: right;
+}
+
+.bb-1 {
     height: 180px;
     border-bottom: 1px solid #ededed;
     padding-top: 23px;
 }
 
-.col-220 .bb-2 {
+.bb-2 {
     height: 180px;
     padding-top: 23px;
+}
+
+.pinpai {
+    margin-top: 20px;
+}
+
+.hot {
+    position: relative;
+    height: 312px;
+}
+
+.hot h3 {
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.hot {
+    height: 331px;
+    margin-bottom: 30px;
 }
